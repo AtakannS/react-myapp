@@ -1,0 +1,134 @@
+:root {
+  --primary-color: rgb(160, 216, 75, 0.89);
+  --primary-color: rgb(216, 138, 75, 0.89);
+  --dark-color: #333;
+  --light-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  background-image: url(https://i.pinimg.com/originals/96/2c/80/962c80418fd321d689900d0fd7ed505e.jpg);
+}
+
+.App {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 900;
+  text-shadow: 2px 4px 3px;
+
+}
+
+.header {
+  background: linear-gradient(pink, blue);
+  height: 60px;
+  margin-bottom: 20px;
+
+}
+
+.text {
+  color: #fff;
+}
+
+.App form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+  box-shadow: 0px 7px 9px 3px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.App form input {
+  box-shadow: 0 2px 4px 0px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: 700;
+  border: none;
+}
+
+.App form [type=Reset] {
+  box-shadow: 0 2px 4px 0px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: 700;
+  border: none;
+}
+
+.App form input:focus {
+  border: none;
+  outline: 2px solid greenyellow;
+}
+
+.App form input[type=text] {
+  padding: 6px 13px;
+}
+
+.App form input[type=submit] {
+  /* width: 50%; */
+  /* align-self: center; */
+  border-radius: 10ex 10ex 0 0;
+}
+
+.App form input[type=submit]:hover {
+  opacity: 0.5;
+}
+
+.App form input[type=reset] {
+  /* width: 50%; */
+  /* align-self: center; */
+  border-radius: 0 0 10ex 10ex;
+}
+
+.App form input[type=reset]:hover {
+  opacity: 0.5;
+}
+
+.App ul {
+  background-image: url(https://reterdeen.com/wp-content/uploads/2019/05/danger-red-message-text-two-speeds-4k-danger-red-flashing-warning-message-text-on-black-background-two-speeds-seamlessly-loopable-4k_rkimfnkrx_thumbnail-full10.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.App ul li {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  text-shadow: none;
+  text-transform: uppercase;
+  line-height: 1.1;
+  font-size: 35px;
+  font-weight: 600;
+  white-space: pre;
+
+}
+
+.error {
+  border: 2px dotted cyan;
+  border-radius: 10ex 0 10ex 0;
+  color: cyan;
+  font-weight: 300;
+  text-shadow: 2px 2px 5px;
+  margin: 2px 0px 2px 0px;
+}
+
+.asd {
+  /* margin: 10px;
+  text-shadow: none; */
+  background: linear-gradient(to left, pink, blue, green, yellow, );
+
+  background-clip: text;
+  color: transparent;
+}
